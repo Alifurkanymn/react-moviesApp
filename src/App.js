@@ -1,16 +1,12 @@
-import AddMovie from "./components/AddMovie";
-import ListMovie from "./components/ListMovie";
+import Login from "./components/Login";
+import '../src/App.scss'
 
 function App() {
 
   return (
-    <>
-      <AddMovie />
-      <br/>
-      <br/>
-      <br/>
-      <ListMovie />
-    </>
+    <div className="App">
+      <Login />
+    </div>
   );
 }
 
